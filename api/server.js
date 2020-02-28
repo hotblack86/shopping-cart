@@ -50,6 +50,10 @@ app.post('/api/auth', (req,res) => { //signs in user
   }
 });
 
+app.get('/api/pay', middleware, (req, res) => { //checkout route for signed in users
+  return res.json("Payment Successful!");
+});
+
 
 
 
