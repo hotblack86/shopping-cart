@@ -6,4 +6,6 @@ npm i -S express react-router-dom axios jsonwebtoken cors body-parser bootstrap
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Source:- https://dzone.com/articles/create-a-simple-shopping-cart-using-react-and-node
+
 
