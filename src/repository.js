@@ -25,3 +25,9 @@ export function login (data) {
     .catch(err => Promise.reject('Authentication Failed!'));
 }
 
+export function pay (data) {
+  return axios.get(`${BASE_URL}/api/pay`, 
+      { params: { 'x-access-token': localStorage.getItem('x-access-token')} })
+          .then(response => response.data)
+          .catch(err => Promise.reject(err));
+}
