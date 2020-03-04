@@ -31,3 +31,7 @@ export function pay (data) {
           .then(response => response.data)
           .catch(err => Promise.reject(err));
 }
+
+export function isAuthenticated(){
+  return localStorage.getItem('x-access-token') && localStorage.getItem('x-access-token-expiration') > Date.now()
+}
