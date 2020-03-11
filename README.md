@@ -9,3 +9,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Source:- https://dzone.com/articles/create-a-simple-shopping-cart-using-react-and-node
 
 
+* Current bug to fix - 'Warning: Can't perform a React state update on an unmounted component' in Checkout component
+
+
