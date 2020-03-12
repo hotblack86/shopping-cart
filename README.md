@@ -1,12 +1,14 @@
-A shopping cart app using React.js as the front-end framework, and a backend server built using Node.js and Express.js.
+__A shopping cart app using React.js as the front-end framework, and a backend server built using Node.js and Express.js.__
+
 ---
 
-##Install Dependencies:-
+__Install Dependencies:-__
 
 ```npm i -S express react-router-dom axios jsonwebtoken cors body-parser bootstrap```
+
 ---
 
-##Usage:-
+__Usage:-__
 
 * Run the backend server by using the following command in a terminal
 ```npm run api```
@@ -15,10 +17,11 @@ A shopping cart app using React.js as the front-end framework, and a backend ser
 ```npm start```
 
 * Product and User data is in api/data.js. Feel free to change these.
+
 ---
 
 
-##Issues
+__Issues:-__
 
 * Current bug to fix - 'Warning: Can't perform a React state update on an unmounted component' in Checkout component
 
