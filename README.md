@@ -11,4 +11,6 @@ Source:- https://dzone.com/articles/create-a-simple-shopping-cart-using-react-an
 
 * Current bug to fix - 'Warning: Can't perform a React state update on an unmounted component' in Checkout component
 
+* Above bug fixed. Issue was a typo in e.preventDefault in Login.js that was preventing succesful login. Angry face.
+
 

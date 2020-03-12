@@ -7,10 +7,13 @@ export default class Login extends React.Component{
     this.state = { name: '', password: '' };
   }
 
-  handleInputChange = (e) => this.setState({[e.target.name]: e.target.value})
-      
-  submitLogin = (e) => {
-    e.preDefault();
+  handleInputChange = e => {
+    this.setState({[e.target.name]: e.target.value});
+    console.log(this.state);
+  }
+
+  submitLogin = e => {
+    e.preventDefault();
     login(this.state)
       .then(token => window.location = '/')
       .catch(err => console.log(err));
